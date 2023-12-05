@@ -75,10 +75,10 @@ void configLoading() {
     ..loadingStyle = EasyLoadingStyle.custom
     ..indicatorSize = 45.0
     ..radius = 10.0
-    ..progressColor = AppTheme.lightOnPrimaryColor 
+    ..progressColor = AppTheme.secondaryColor 
     ..backgroundColor = AppTheme.lightOnPrimaryColor 
     ..indicatorColor =AppTheme.secondaryColor
-    ..textColor = AppTheme.lightOnPrimaryColor 
+    ..textColor = AppTheme.secondaryColor 
     ..maskColor = Colors.blue.withOpacity(0.5)
     ..userInteractions = false
     ..dismissOnTap = false;
