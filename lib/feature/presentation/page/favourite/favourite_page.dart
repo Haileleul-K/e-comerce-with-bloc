@@ -1,0 +1,16 @@
+import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/src/widgets/placeholder.dart';
+
+class FavouriteView extends StatefulWidget {
+  const FavouriteView({super.key});
+
+  @override
+  State<FavouriteView> createState() => _FavouriteViewState();
+}
+
+class _FavouriteViewState extends State<FavouriteView> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
